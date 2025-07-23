@@ -16,6 +16,8 @@ Para probar el resto de biblotecas ocupadas en este proyecto:
 -Instale las herramientas usadas en el proyecto:
 -Pylint
 -Pyinstrument
+-Hypothesis
+-Pynguin
 
 usando el comando: "pip install pylint" 
 
@@ -41,3 +43,5 @@ pip install scikit-learn
 
 -Dentro de la carpeta de la biblioteca elija, use el siguiente comando: "python comparar_(nombredelafuncion)" 
 Por ejemplo en la carpeta scikit_image seria: "python comparar_image"
+
+Para probar el caso de Hypothesis demostrado en el video adjunto a la presentacion, los tres archivos utilizados están en la carpeta "caso hypothesis".
